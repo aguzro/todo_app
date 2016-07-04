@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Materialize.css-->
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+
+<header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col s12 m12">
+				<h1 class="center-align">to do app</h1>
+				<p class="center-align">Recuerda y organiza tus actividades con esta sencilla lista de tareas por realizar.</p>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="write_tips">
+	<div class="container">
+		<div class="row">
+			<div class="col s10 m10">
+				<textarea id="text_task"></textarea>
+			</div>
+			<div class="col s2 m2">
+				<button type="submit" onclick="agregarTarea()" value="añadir div" id="bt" class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></button>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="list_tasks">
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div id="contenedor-tareas">
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<p class="center-align">Design for ©RedWolf - <!-- poner acá una cosa de Js para poner el año  --></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+<body>
+	
+</body>
+</html>
